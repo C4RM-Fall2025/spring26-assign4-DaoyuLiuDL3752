@@ -6,3 +6,4 @@ def getBondPrice_Z(face, couponRate, times, yc):
         cf = c if i < n else c + face
         price += cf / ((1 + r) ** t)
     return price
+# I can't believe it
